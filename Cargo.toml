@@ -1,3 +1,5 @@
+cargo-features = ["metabuild"]
+
 [package]
 name = "electrs"
 version = "0.8.11"
@@ -10,7 +12,7 @@ keywords = ["bitcoin", "electrum", "server", "index", "database"]
 documentation = "https://docs.rs/electrs/"
 readme = "README.md"
 edition = "2018"
-build = "build.rs"
+metabuild = ["configure_me_codegen"]
 
 [package.metadata.configure_me]
 spec = "internal/config_specification.toml"
@@ -50,4 +52,4 @@ time = "0.1"
 tiny_http = "0.6"
 
 [build-dependencies]
-configure_me_codegen = "0.4.0"
+configure_me_codegen = { version = "0.4.1", features = ["unstable-metabuild"] }
