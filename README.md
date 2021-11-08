@@ -21,8 +21,8 @@ thus preserving the privacy of the user's addresses and balances.
 
 **Please prefer to use OUR usage guide!**
 
-External guides such as RaspiBolt can be out-of-date and have various problems.
-At least double-check that the guide you're using is actively maintained.
+External guides can be out-of-date and have various problems.
+At least double-check that the guide you're using is actively maintained or cross-check their instructions with ours.
 If you can't use our guide ask about what you don't understand or consider using automated deployments.
 
  * [Installation from source](doc/install.md) 
